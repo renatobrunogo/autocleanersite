@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>A u t o C l e a n e r</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: white;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .logoname {
+      width: 400px;
+      height: 200px;
+      margin-bottom: 5px;
+      animation: pulseZoom 2s ease-in-out infinite;
+    }
+
+    @keyframes pulseZoom {
+      0%   { transform: scale(1); }
+      25%  { transform: scale(1.1); }
+      50%  { transform: scale(1); }
+      75%  { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #3d518d;
+      color: white;
+      padding: 10px 30px;
+      font-size: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      animation: pulseZoom 0.6s ease-in-out 3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img
+      src="media/A u t o C l e a n e r  -  letreiro.png"
+      alt="A u t o C l e a n e r"
+      class="logoname"
+    />
+    <p>
+      Limpeza automática de arquivos desnecessários.
+    </p>
+    <a
+      href="https://github.com/renatobrunogo/autocleaner/releases/download/v1.4.4/autocleaner-v1.4.4.exe"
+      class="button"
+      download
+    >📥 Download</a>
+  </div>
+</body>
+</html>
