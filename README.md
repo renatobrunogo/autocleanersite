@@ -4,10 +4,11 @@ Executável para Windows com automação.
 
 
 Link para Download: https://renatobrunogo.github.io/autocleanersite/
+
 Link para o projeto: https://github.com/renatobrunogo/autocleaner
 
 
-    Versão: 1.4.4
+    Versão: 1.4.8
 
         ✅ Adicionar e remover pastas personalizadas.
 
